@@ -69,4 +69,32 @@
     {
         //...write your code here
     }
+
+    /**
+     * Function encrypt encrypt message by key
+     *
+     * Функція отримує на вхід рядок повідомлення та рядок ключ 
+     * Функція повінная зашифрувати повідомлення по ключу так щоб знаючи ключ  це повідомлення могли розшифоувати назад
+     *
+     * @param string $str
+     * @return string
+     */
+    function encript(string $message, string $key): string 
+    {
+        //...write your code here
+    }
+
+     /**
+     * Function decrypt decrypt message by key
+     *
+     * Функція отримує на вхід рядок повідомлення та рядок ключ 
+     * Функція повінная розшифрувати зашифроване повідомлення по ключу 
+     *
+     * @param string $str
+     * @return string
+     */
+    function decript(string $message, string $key): string 
+    {
+        //...write your code here
+    }
 ```
