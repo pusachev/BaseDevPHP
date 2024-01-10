@@ -43,7 +43,7 @@ $file = fopen('file.txt', 'r+');
 //читаємо файл у масив
 $file_array = file("counter.txt");
 //відкриття файлу
-$file = fopen('file.txt', r+);
+$file = fopen('file.txt', 'r+');
 //перевірка, чи не закінчився файл
 while (! feof($file)) {
 //читання з файлу
