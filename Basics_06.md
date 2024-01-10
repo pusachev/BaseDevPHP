@@ -47,8 +47,8 @@ $file = fopen('file.txt', r+);
 //перевірка, чи не закінчився файл
 while (! feof($file)) {
 //читання з файлу
-$ s = fgets ($ file);
-echo $s;
+  $s = fgets($file);
+  echo $s;
 }
 //закриття файлу
 fclose($file);
